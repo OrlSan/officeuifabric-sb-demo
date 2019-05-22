@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55710FF32295F2AE0041C8C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55710FF22295F2AE0041C8C7 /* AppDelegate.swift */; };
+		55710FF52295F2AE0041C8C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55710FF42295F2AE0041C8C7 /* ViewController.swift */; };
+		55710FF82295F2AE0041C8C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55710FF62295F2AE0041C8C7 /* Main.storyboard */; };
+		55710FFA2295F2AF0041C8C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55710FF92295F2AF0041C8C7 /* Assets.xcassets */; };
+		55710FFD2295F2AF0041C8C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55710FFB2295F2AF0041C8C7 /* LaunchScreen.storyboard */; };
+		AD1E262D89DB27005649B4F2 /* Pods_OfficeUIFabric_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A277F8170FE03DFDE998363B /* Pods_OfficeUIFabric_Demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55710FEF2295F2AE0041C8C7 /* OfficeUIFabric Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OfficeUIFabric Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55710FF22295F2AE0041C8C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55710FF42295F2AE0041C8C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55710FF72295F2AE0041C8C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55710FF92295F2AF0041C8C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55710FFC2295F2AF0041C8C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55710FFE2295F2AF0041C8C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A277F8170FE03DFDE998363B /* Pods_OfficeUIFabric_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OfficeUIFabric_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0951FF736D3475D55E43BB8 /* Pods-OfficeUIFabric Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeUIFabric Demo.release.xcconfig"; path = "Target Support Files/Pods-OfficeUIFabric Demo/Pods-OfficeUIFabric Demo.release.xcconfig"; sourceTree = "<group>"; };
+		EA5B726E4361276196C1A29D /* Pods-OfficeUIFabric Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfficeUIFabric Demo.debug.xcconfig"; path = "Target Support Files/Pods-OfficeUIFabric Demo/Pods-OfficeUIFabric Demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55710FEC2295F2AE0041C8C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1E262D89DB27005649B4F2 /* Pods_OfficeUIFabric_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55710FE62295F2AE0041C8C7 = {
+			isa = PBXGroup;
+			children = (
+				55710FF12295F2AE0041C8C7 /* OfficeUIFabric Demo */,
+				55710FF02295F2AE0041C8C7 /* Products */,
+				FE829BDC0AB2BD2AB927FFA9 /* Pods */,
+				A36047EE78A912B0058BC043 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55710FF02295F2AE0041C8C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55710FEF2295F2AE0041C8C7 /* OfficeUIFabric Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55710FF12295F2AE0041C8C7 /* OfficeUIFabric Demo */ = {
+			isa = PBXGroup;
+			children = (
+				55710FF22295F2AE0041C8C7 /* AppDelegate.swift */,
+				55710FF42295F2AE0041C8C7 /* ViewController.swift */,
+				55710FF62295F2AE0041C8C7 /* Main.storyboard */,
+				55710FF92295F2AF0041C8C7 /* Assets.xcassets */,
+				55710FFB2295F2AF0041C8C7 /* LaunchScreen.storyboard */,
+				55710FFE2295F2AF0041C8C7 /* Info.plist */,
+			);
+			path = "OfficeUIFabric Demo";
+			sourceTree = "<group>";
+		};
+		A36047EE78A912B0058BC043 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A277F8170FE03DFDE998363B /* Pods_OfficeUIFabric_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE829BDC0AB2BD2AB927FFA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B726E4361276196C1A29D /* Pods-OfficeUIFabric Demo.debug.xcconfig */,
+				B0951FF736D3475D55E43BB8 /* Pods-OfficeUIFabric Demo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55710FEE2295F2AE0041C8C7 /* OfficeUIFabric Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557110012295F2AF0041C8C7 /* Build configuration list for PBXNativeTarget "OfficeUIFabric Demo" */;
+			buildPhases = (
+				C5584FC69A0FA48BBB596247 /* [CP] Check Pods Manifest.lock */,
+				55710FEB2295F2AE0041C8C7 /* Sources */,
+				55710FEC2295F2AE0041C8C7 /* Frameworks */,
+				55710FED2295F2AE0041C8C7 /* Resources */,
+				AE577E72839394472E49F672 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OfficeUIFabric Demo";
+			productName = "OfficeUIFabric Demo";
+			productReference = 55710FEF2295F2AE0041C8C7 /* OfficeUIFabric Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55710FE72295F2AE0041C8C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Jaque Digital SAPI de CV";
+				TargetAttributes = {
+					55710FEE2295F2AE0041C8C7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 55710FEA2295F2AE0041C8C7 /* Build configuration list for PBXProject "OfficeUIFabric Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55710FE62295F2AE0041C8C7;
+			productRefGroup = 55710FF02295F2AE0041C8C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55710FEE2295F2AE0041C8C7 /* OfficeUIFabric Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55710FED2295F2AE0041C8C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55710FFD2295F2AF0041C8C7 /* LaunchScreen.storyboard in Resources */,
+				55710FFA2295F2AF0041C8C7 /* Assets.xcassets in Resources */,
+				55710FF82295F2AE0041C8C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE577E72839394472E49F672 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OfficeUIFabric Demo/Pods-OfficeUIFabric Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OfficeUIFabric/OfficeUIFabric.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OfficeUIFabric.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OfficeUIFabric Demo/Pods-OfficeUIFabric Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5584FC69A0FA48BBB596247 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OfficeUIFabric Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55710FEB2295F2AE0041C8C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55710FF52295F2AE0041C8C7 /* ViewController.swift in Sources */,
+				55710FF32295F2AE0041C8C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55710FF62295F2AE0041C8C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55710FF72295F2AE0041C8C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55710FFB2295F2AF0041C8C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55710FFC2295F2AF0041C8C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55710FFF2295F2AF0041C8C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		557110002295F2AF0041C8C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		557110022295F2AF0041C8C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA5B726E4361276196C1A29D /* Pods-OfficeUIFabric Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8LVQUNTCL;
+				INFOPLIST_FILE = "OfficeUIFabric Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orlsan.OfficeUIFabric-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		557110032295F2AF0041C8C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0951FF736D3475D55E43BB8 /* Pods-OfficeUIFabric Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8LVQUNTCL;
+				INFOPLIST_FILE = "OfficeUIFabric Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orlsan.OfficeUIFabric-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55710FEA2295F2AE0041C8C7 /* Build configuration list for PBXProject "OfficeUIFabric Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55710FFF2295F2AF0041C8C7 /* Debug */,
+				557110002295F2AF0041C8C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557110012295F2AF0041C8C7 /* Build configuration list for PBXNativeTarget "OfficeUIFabric Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557110022295F2AF0041C8C7 /* Debug */,
+				557110032295F2AF0041C8C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55710FE72295F2AE0041C8C7 /* Project object */;
+}

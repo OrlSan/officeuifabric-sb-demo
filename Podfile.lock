@@ -1,0 +1,16 @@
+PODS:
+  - OfficeUIFabric (0.2.2)
+
+DEPENDENCIES:
+  - OfficeUIFabric (~> 0.2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - OfficeUIFabric
+
+SPEC CHECKSUMS:
+  OfficeUIFabric: 511e603a9807706b6688b9a2178f3cc5a356a3d1
+
+PODFILE CHECKSUM: 9557d43687b1957fec5cc1b06edf251a08e0398e
+
+COCOAPODS: 1.6.1
